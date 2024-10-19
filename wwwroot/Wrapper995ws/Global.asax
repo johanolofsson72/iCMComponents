@@ -1,0 +1,1 @@
+<%@ Application Inherits="Wrapper995ws.Global" Language="VB" %>

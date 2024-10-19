@@ -1,0 +1,9 @@
+bin\net-2.0\Debug\MySql.Data.dll
+bin\net-2.0\Debug\MySql.Data.pdb
+bin\net-2.0\Debug\doc.xml
+bin\net-2.0\Debug\ICSharpCode.SharpZipLib.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MySql.Data.MySqlClient.MySqlClient.Strings.resources
+obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+obj\Debug\MySql.Data.dll
+obj\Debug\MySql.Data.pdb

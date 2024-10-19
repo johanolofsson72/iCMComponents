@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Wrapper995Service">
+</Property><Property Name="Solution File" Value="C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Wrapper995Service.sln">
+</Property><Property Name="User Options File" Value="C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Wrapper995Service.suo">
+</Property><Property Name="Date" Value="den 5 december 2005">
+</Property><Property Name="Time" Value="22:24">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Wrapper995Service.sln" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995Service.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Wrapper995Service.suo" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995Service.suo">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="Wrapper995Service.vbproj" Description="Project file successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995Service.vbproj">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="Wrapper995Service.vbproj.user" Description="Project user file successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995Service.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="Wrapper.vb" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper.vb">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="Wrapper995Service.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Wrapper995Service" Source="Wrapper995Service.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj" Description="Project file successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\Wrapper995.vbproj">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj.user" Description="Project user file successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\Wrapper995.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\AssemblyInfo.vb" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\cDHBrowseForFolder.vb" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\cDHBrowseForFolder.vb">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Form1.vb" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\App.config" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\App.config">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Form1.resx" Description="File successfully backed up as C:\Development\iConsulting\iCMComponents\wwwroot\Wrapper995Service\Backup\Wrapper995\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Wrapper995Web" Source="http://localhost/Development/iConsulting/iCMComponents/wwwroot/Wrapper995Web/Wrapper995Web.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="1" Project="Wrapper995ws" Source="http://localhost/Development/iConsulting/iCMComponents/wwwroot/Wrapper995ws/Wrapper995ws.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="" Source="Wrapper995Service.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Wrapper995Service.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Wrapper995Service" Source="Wrapper995Service.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Wrapper995" Source="..\Wrapper995\Wrapper995.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="1" Project="Wrapper995Web.vbproj" Source=" Wrapper995Web.vbproj:(Warning List)" Description="Warning: 'Referencepath' settings have not been converted.&#xA;">
+</Event><Event ErrorLevel="0" Project="Wrapper995Web.vbproj" Source="Wrapper995Web.vbproj" Description="Converted.&#xA;There may be some unresolved conversion issues you will need to manually fix. For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic &quot;Converting from Visual Studio .NET 2002 or 2003&quot;.">
+</Event><Event ErrorLevel="3" Project="Wrapper995Web.vbproj" Source="Wrapper995Web.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Wrapper995ws.vbproj" Source="Wrapper995ws.vbproj" Description="Converted.&#xA;There may be some unresolved conversion issues you will need to manually fix. For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic &quot;Converting from Visual Studio .NET 2002 or 2003&quot;.">
+</Event><Event ErrorLevel="3" Project="Wrapper995ws.vbproj" Source="Wrapper995ws.vbproj" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,450 @@
+/*  START webfx */
+/*
+.webfx-tree-container {
+	margin: 0px;
+	padding: 0px;
+	font: icon;
+	white-space: nowrap;
+}
+
+.webfx-tree-item {
+	padding: 0px;
+	margin: 0px;
+	font: icon;
+	color: WindowText;
+	white-space: nowrap;
+	height: 16px;
+}
+
+.webfx-tree-item a, .webfx-tree-item a:active, .webfx-tree-item a:hover {
+	margin-left: 3px;
+	padding: 0px 2px 1px 2px;
+}
+
+.webfx-tree-item a {
+	color: black;
+	text-decoration: none;
+}
+
+.webfx-tree-item a:hover {
+	color: #3b5159;
+	text-decoration: underline;
+}
+
+.webfx-tree-item a:active {
+	background: #3b5159;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.webfx-tree-item img {
+	vertical-align: middle;
+	border: 0px;
+}
+
+.webfx-tree-icon {
+	width: 16px;
+	height: 16px;
+}
+*/
+/*  END webfx */
+
+/* text style for the selected tab */
+
+.SelectedTab 
+{
+		
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:royalblue;
+    text-decoration:none;
+    font-weight: normal
+	
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+   font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:royalblue;
+    text-decoration:none;
+    font-weight: normal
+}
+
+/* hyperlink styles of the unselected tabs */
+A.OtherTabs:link    {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    text-decoration:none;
+    font-weight: normal
+
+}
+
+A.OtherTabs:visited {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    text-decoration:none;
+    font-weight: normal
+
+}
+
+A.OtherTabs:active  {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    text-decoration:none;
+    font-weight: normal
+
+}
+
+A.OtherTabs:hover   {
+     font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    text-decoration:none;
+    font-weight: normal
+
+ 
+}
+/* Default CSS Stylesheet for a new Web Application project */
+.StandardText1
+{
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:x-small;  
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+    color:gray;         
+}
+/* GENERAL */
+/* style for module titles */
+.Head   {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  15px;
+    font-weight:    bold;
+    color: Navy; /*#666666;  #666644;*/
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: Navy;  /*#666644;*/
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    normal;
+    color: Navy;
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 12px    
+}
+
+.iCWebControls
+{
+	background-color: GhostWhite;
+	border-color: RoyalBlue;
+	font-size: xx-small;
+	font-family: Verdana;
+	height: 21px;         
+}
+
+.iCWebControlsII
+{
+	border-right: #203470 thin solid;
+	border-top: #4169e1 thin solid;
+	font-size: xx-small;
+	border-left: #4169e1 thin solid;
+	border-bottom: #203470 thin solid;
+	font-family: Verdana;
+	background-color: white;
+	text-align: center;       
+}
+
+.Button
+{
+	border-right: #203470 thin solid;
+	border-top: #4169e1 thin solid;
+	font-size: xx-small;
+	border-left: #4169e1 thin solid;
+	border-bottom: #203470 thin solid;
+	font-family: Verdana;
+	background-color: white;
+	text-align: center;       
+	
+	
+	
+}
+
+
+HR 
+{
+    color: RoyalBlue;
+    height:1pt;
+    text-align:left
+}
+
+cursor:default;
+behavior:url(#default#clientcaps) 
+.normaltext { font: 8pt Arial; }
+td { font-family:  font face="Sylfaen";  font-size: 12px; }
+
+toolbarCtrls 
+{
+background-color: buttonface; 
+height: 25px; left: 0px; 
+position: relative; top: 0px
+}
+
+.OptionItems
+{
+	background-color: buttonface; 
+}
+
+.menubuttons
+{    
+border: 0px ;
+padding:0px;
+margin:0px;
+}
+
+.toolz
+{
+border: 0px ;
+padding:0px;
+margin:0px;
+}
+
+.h3 {
+font: 10px, sans-serif;
+}
+
+.h4 {
+font:12.5px, sans-serif;
+}
+
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+
+
+A:link	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+
+	
+.Grid
+{
+border-bottom: #203470 1pt solid; 
+BORDER-TOP: #4169E1 1pt solid;
+overflow:hidden;
+BACKGROUND:window;
+font-size: xx-small;
+font-family: Verdana;
+background-color: white;
+
+
+Width:100%
+}
+
+
+.GridHead
+{
+	border-top: 1px solid;
+	font-weight: bold;
+	font-size: xx-small;
+	border-left: #000000;
+	border-bottom: darkgray 4px solid;
+	font-family: Verdana;
+	background-color: #F1F1F1;
+}
+
+.GridHead TD 
+{
+	BACKGROUND-COLOR:#F1F1F1;
+	font-size: xx-small;
+	border:thin solid 1;
+	border-left:#000000; 
+	font-family: Verdana;
+	
+}
+
+.GridHead A:link
+{
+	text-decoration:	none;
+	color:	black;
+}
+
+.GridHead A:visited
+{
+	text-decoration:	none;
+	color:	black;
+}
+
+.GridHead A:hover
+{
+	text-decoration:	none;
+	color:	black;
+}
+
+

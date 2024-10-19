@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wrapper995Service", "Wrapper995Service.vbproj", "{601ED370-3B5E-4C72-99EE-191CFC285732}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wrapper995", "..\Wrapper995\Wrapper995.vbproj", "{C3839FD3-73B4-40DA-AFD4-DD560D901A72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wrapper995Web", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/Wrapper995Web/Wrapper995Web.vbproj", "{38ED4DEE-DDF9-40EB-B31B-F0FDF48F9862}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wrapper995ws", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/Wrapper995ws/Wrapper995ws.vbproj", "{25BD15E5-B2B8-4F78-A4E3-2574449521D6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{601ED370-3B5E-4C72-99EE-191CFC285732}.Debug.ActiveCfg = Debug|.NET
+		{601ED370-3B5E-4C72-99EE-191CFC285732}.Debug.Build.0 = Debug|.NET
+		{601ED370-3B5E-4C72-99EE-191CFC285732}.Release.ActiveCfg = Release|.NET
+		{601ED370-3B5E-4C72-99EE-191CFC285732}.Release.Build.0 = Release|.NET
+		{C3839FD3-73B4-40DA-AFD4-DD560D901A72}.Debug.ActiveCfg = Debug|.NET
+		{C3839FD3-73B4-40DA-AFD4-DD560D901A72}.Debug.Build.0 = Debug|.NET
+		{C3839FD3-73B4-40DA-AFD4-DD560D901A72}.Release.ActiveCfg = Release|.NET
+		{C3839FD3-73B4-40DA-AFD4-DD560D901A72}.Release.Build.0 = Release|.NET
+		{38ED4DEE-DDF9-40EB-B31B-F0FDF48F9862}.Debug.ActiveCfg = Debug|.NET
+		{38ED4DEE-DDF9-40EB-B31B-F0FDF48F9862}.Debug.Build.0 = Debug|.NET
+		{38ED4DEE-DDF9-40EB-B31B-F0FDF48F9862}.Release.ActiveCfg = Release|.NET
+		{38ED4DEE-DDF9-40EB-B31B-F0FDF48F9862}.Release.Build.0 = Release|.NET
+		{25BD15E5-B2B8-4F78-A4E3-2574449521D6}.Debug.ActiveCfg = Debug|.NET
+		{25BD15E5-B2B8-4F78-A4E3-2574449521D6}.Debug.Build.0 = Debug|.NET
+		{25BD15E5-B2B8-4F78-A4E3-2574449521D6}.Release.ActiveCfg = Release|.NET
+		{25BD15E5-B2B8-4F78-A4E3-2574449521D6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

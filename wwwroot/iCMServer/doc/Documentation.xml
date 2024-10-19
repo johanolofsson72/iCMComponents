@@ -1,0 +1,1122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iConsulting.iCMServer</name>
+    </assembly>
+    <members>
+        <member name="T:iConsulting.Library.DocumentCache">
+            <summary>
+            Summary description for DocumentCache.
+            </summary>
+        </member>
+        <member name="M:iConsulting.Library.DocumentCache.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:iConsulting.Library.DocumentCache.Add(iConsulting.Library.CacheItem)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="T:iConsulting.Library.CacheItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:iConsulting.Library.CacheItem.m_file">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.Library.CacheItem.#ctor(System.IO.FileInfo)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.iCMServer">
+            <summary>
+            iCMServer
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.iCMServer.#ctor(System.Boolean)">
+            <summary>
+            iCMServer
+            </summary>
+            <param name="autoupdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.iCMServer.#ctor">
+            <summary>
+            iCMServer
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.iCMServer.Find(System.String)">
+            <summary>
+            Find
+            </summary>
+            <param name="alias"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.iCMServer.ErrorHandler(System.Exception,System.String)">
+            <summary>
+            ErrorHandler
+            </summary>
+            <param name="ex"></param>
+            <param name="Function"></param>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.iCMServer.Sites">
+            <summary>
+            Sites
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.SiteCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.GetSite(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.GetSite(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="alias"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Contains(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Contains(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="alias"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Add(iConsulting.iCMServer.Library.Site)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Remove(iConsulting.iCMServer.Library.Site)">
+            <summary>
+            
+            </summary>
+            <param name="site"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Remove(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Clear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.SiteCollection.Count">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.SiteCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.SiteCollection.Items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.Site">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Alias"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Alias"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Site.Update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Pages">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.AutoUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Exist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Language">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Alias">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Align">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LeftContainerWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.ContentContainerWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.RightContainerWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.MetaDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.MetaKeyWords">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.MetaAuthor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.MetaCopyright">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.MetaRobots">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Css">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHeadFamily">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHeadSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHeadWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHeadColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubHeadFamily">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubHeadSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubHeadWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubHeadColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubSubHeadFamily">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubSubHeadSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubSubHeadWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssSubSubHeadColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssNormalFamily">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssNormalSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssNormalWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssNormalColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonBorderSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonBorderColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonBackColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonForeColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonTextAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonFontFamily">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonFontSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssButtonFontWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHrColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHrHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CssHrAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Logo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LogoHref">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LogoHorizontalTiling">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LogoVerticalTiling">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LogoHorizontalAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.LogoVerticalAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.StartPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.AlwaysShowEditButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.ShowFooter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.FooterTextLeft">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.FooterTextContent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.FooterTextRight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Color">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.ContentAdjust">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.SoftDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CreatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.CreatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.UpdatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.UpdatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Hidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Site.Deleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.PageCollection">
+            <summary>
+            PageCollection
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.GetPage(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Contains(System.Int32)">
+            <summary>
+            Contains
+            </summary>
+            <param name="Id"></param>
+            <returns>true | false</returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Contains(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Add(iConsulting.iCMServer.Library.Page)">
+            <summary>
+            Add
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Remove(iConsulting.iCMServer.Library.Page)">
+            <summary>
+            
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Remove(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Clear">
+            <summary>
+            Clear
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.PageCollection.Count">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.PageCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.PageCollection.Items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.Page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="PagId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.#ctor(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="PagId"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Page.Update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.AutoUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Exist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Modules">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.SiteId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Language">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.ParentId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.BackColor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureHref">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureHorizontalAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureVerticalAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureHorizontalTiling">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.PictureVerticalTiling">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Minimizer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Top">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.MobileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.AuthorizedRoles">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.ShowMobile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.LeftModuleFieldWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.ContentModuleFieldWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.RightModuleFieldWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.ContentAlign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Level">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.IconFile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.AdminPageIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.IsVisible">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.HasChildren">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.CreatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.CreatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.UpdatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.UpdatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Hidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Page.Deleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.ModuleCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.GetModule(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Contains(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Contains(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SiteId"></param>
+            <param name="PageId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Add(iConsulting.iCMServer.Library.Module)">
+            <summary>
+            
+            </summary>
+            <param name="module"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Remove(iConsulting.iCMServer.Library.Module)">
+            <summary>
+            
+            </summary>
+            <param name="module"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Remove(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Clear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.ModuleCollection.Count">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.ModuleCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.ModuleCollection.Items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:iConsulting.iCMServer.Library.Module">
+            <summary>
+            Module
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="PagId"></param>
+            <param name="ModId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="PagId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="PagId"></param>
+            <param name="ModId"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="SitId"></param>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="AutoUpdate"></param>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iConsulting.iCMServer.Library.Module.Update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.AutoUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Exist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.SitId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.PagId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Language">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.ModuleDefinitionId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.PaneName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.AuthorizedEditRoles">
+            <summary>
+            AuthorizedEditRoles
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.CacheTimeMilliSeconds">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.ShowMobile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Alignment">
+            <summary>
+            Alignment
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Color">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Border">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.EditSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.IconFile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.EditModuleIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.FriendlyName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Secure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.AllPages">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.ShowTitle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Personalize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.SkinPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.CreatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.CreatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.UpdatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.UpdatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Hidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iConsulting.iCMServer.Library.Module.Deleted">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

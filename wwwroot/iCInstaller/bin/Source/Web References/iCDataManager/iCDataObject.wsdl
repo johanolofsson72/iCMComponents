@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetDefinedDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDefinedDataList">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="sWhere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDefinedDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDefinedDataSetResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveBlobData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sWhere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsBlobList">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="Blob" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsUpdate" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveBlobDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveBlobDataResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataScalar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataScalarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataScalarResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sWhere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataSetResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataFromSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataFromSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataFromSPResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultiDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsMultiList">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultiDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMultiDataSetResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultiDataSetFromSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsMultiList">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultiDataSetFromSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMultiDataSetFromSPResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmptyDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetEmptyDataSetResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedDataSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedConnectionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="Refresh" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveDataSetResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sError" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDefinedDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDefinedDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDefinedDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDefinedDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveBlobDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveBlobData" />
+  </wsdl:message>
+  <wsdl:message name="SaveBlobDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveBlobDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataScalarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataScalar" />
+  </wsdl:message>
+  <wsdl:message name="GetDataScalarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataScalarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataFromSPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataFromSP" />
+  </wsdl:message>
+  <wsdl:message name="GetDataFromSPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataFromSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMultiDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMultiDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMultiDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMultiDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMultiDataSetFromSPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMultiDataSetFromSP" />
+  </wsdl:message>
+  <wsdl:message name="GetMultiDataSetFromSPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMultiDataSetFromSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmptyDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetEmptyDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmptyDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveDataSet" />
+  </wsdl:message>
+  <wsdl:message name="SaveDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveDataSetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="iCDataObjectSoap">
+    <wsdl:operation name="GetDefinedDataSet">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetDefinedDataSet]&lt;br&gt;This function is used for retriving a defined dataset from a specific database / table.&lt;br&gt;it can only carry info and data from one datatable.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetDefinedDataSetSoapIn" />
+      <wsdl:output message="tns:GetDefinedDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBlobData">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::SaveBlobData]&lt;br&gt;This function is used for saving very large binary object's.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:SaveBlobDataSoapIn" />
+      <wsdl:output message="tns:SaveBlobDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataScalar">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetDataScalar]&lt;br&gt;This function is used for retriving the amount of rows in a specific tabel.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetDataScalarSoapIn" />
+      <wsdl:output message="tns:GetDataScalarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSet">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetDataSet]&lt;br&gt;This function is used for retriving a dataset from a specific database / table.&lt;br&gt;it can only carry info and data from one datatable.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetDataSetSoapIn" />
+      <wsdl:output message="tns:GetDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataFromSP">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetDataSet]&lt;br&gt;This function is used for retriving a dataset from a specific database / table from SP.&lt;br&gt;it can only carry info and data from one datatable.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetDataFromSPSoapIn" />
+      <wsdl:output message="tns:GetDataFromSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMultiDataSet">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetMultiDataSet]&lt;br&gt;This function is used for retriving a dataset / table.&lt;br&gt;this function can hold info and data from multiple datatable's.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetMultiDataSetSoapIn" />
+      <wsdl:output message="tns:GetMultiDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMultiDataSetFromSP">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetMultiDataSetFromSP]&lt;br&gt;This function is used for retriving a dataset / table from SP.&lt;br&gt;this function can hold info and data from multiple datatable's.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetMultiDataSetFromSPSoapIn" />
+      <wsdl:output message="tns:GetMultiDataSetFromSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyDataSet">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::GetEmptyDataSet]&lt;br&gt;This function is used for retriving an empty dataset / table.&lt;br&gt;It return's all info about the datatable but with no data.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:GetEmptyDataSetSoapIn" />
+      <wsdl:output message="tns:GetEmptyDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDataSet">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">[Namespace::iConsulting.iCMServer][WebService::iCDataManager][Class::iCDataObject][Function::SaveDataSet]&lt;br&gt;This function is used for saving a dataset retrived from GetDataSet or GetEmptyDataSet.&lt;br&gt;It can return the updated dataset if that's required.&lt;br&gt;It's using a Hi Encryption method and can only be used with other applications&lt;br&gt;developed by http://www.iConsulting.se Corporation.</documentation>
+      <wsdl:input message="tns:SaveDataSetSoapIn" />
+      <wsdl:output message="tns:SaveDataSetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="iCDataObjectSoap" type="tns:iCDataObjectSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="GetDefinedDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetDefinedDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBlobData">
+      <soap:operation soapAction="http://tempuri.org/SaveBlobData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataScalar">
+      <soap:operation soapAction="http://tempuri.org/GetDataScalar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataFromSP">
+      <soap:operation soapAction="http://tempuri.org/GetDataFromSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMultiDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetMultiDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMultiDataSetFromSP">
+      <soap:operation soapAction="http://tempuri.org/GetMultiDataSetFromSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmptyDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetEmptyDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDataSet">
+      <soap:operation soapAction="http://tempuri.org/SaveDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="iCDataObject">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="iCDataObjectSoap" binding="tns:iCDataObjectSoap">
+      <soap:address location="http://localhost/iCDataManager3/iCDataObject.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

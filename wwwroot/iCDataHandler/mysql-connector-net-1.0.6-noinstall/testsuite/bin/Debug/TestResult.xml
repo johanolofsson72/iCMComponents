@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="CommandTests" total="9" failures="0" not-run="0" date="9/21/2005" time="12:11 PM">
+  <test-suite name="CommandTests" success="True" time="2.5625" asserts="0">
+    <results>
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.InsertTest" executed="True" success="True" time="0.016" asserts="4" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.UpdateTest" executed="True" success="True" time="0.000" asserts="6" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.DeleteTest" executed="True" success="True" time="0.016" asserts="2" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.CtorTest" executed="True" success="True" time="0.016" asserts="0" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.CloneCommand" executed="True" success="True" time="0.016" asserts="0" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.TableWithOVer100Columns" executed="True" success="True" time="0.094" asserts="0" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.InsertingPreparedNulls" executed="True" success="True" time="0.000" asserts="2" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.PreparedInsertUsingReader" executed="True" success="True" time="0.000" asserts="3" />
+      <test-case name="MySql.Data.MySqlClient.Tests.CommandTests.ReallyBigCommandString" executed="True" success="True" time="1.828" asserts="10" />
+    </results>
+  </test-suite>
+</test-results>

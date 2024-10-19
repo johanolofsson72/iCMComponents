@@ -1,0 +1,190 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B012FC01-EB14-40C2-8621-BEB97917BDFB}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iCDataManager2Tester"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iCDataManager2Tester"
+                StartupObject = "iCDataManager2Tester.Form1"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "Interop.Scripting"
+                    AssemblyName = "Interop.Scripting"
+                    HintPath = "..\iCLibrary\iConsulting.Library\bin\Interop.Scripting.dll"
+                />
+                <Reference
+                    Name = "iConsulting.Library"
+                    AssemblyName = "iConsulting.Library"
+                    HintPath = "..\iCLibrary\iConsulting.Library\bin\iConsulting.Library.dll"
+                />
+                <Reference
+                    Name = "iCDataManager"
+                    AssemblyName = "iCDataManager"
+                    HintPath = "..\iCDataManager2\bin\iCDataManager.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "CoreLab.MySql"
+                    AssemblyName = "CoreLab.MySql"
+                    HintPath = "..\..\..\..\..\Program Files\CoreLab\MySQLDirect.NET\CoreLab.MySql.dll"
+                    AssemblyFolderKey = "hklm\dn\mysqldirect"
+                />
+                <Reference
+                    Name = "CoreLab.MySql.Addin"
+                    AssemblyName = "CoreLab.MySql.Addin"
+                    HintPath = "..\..\..\..\..\Program Files\CoreLab\MySQLDirect.NET\CoreLab.MySql.Addin.dll"
+                    AssemblyFolderKey = "hklm\dn\mysqldirect"
+                />
+                <Reference
+                    Name = "CoreLab.MySql.Design"
+                    AssemblyName = "CoreLab.MySql.Design"
+                    HintPath = "..\..\..\..\..\Program Files\CoreLab\MySQLDirect.NET\CoreLab.MySql.Design.dll"
+                    AssemblyFolderKey = "hklm\dn\mysqldirect"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\ws_iCDataManager\iCDataObject.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\ws_iCDataManager\iCDataObject.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\ws_iCDataManager\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\ws_iCDataManager\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\ws_iCDataManager\"
+                    WebReferenceUrl = "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCDataManager2/iCDataObject.asmx"
+                    UrlBehavior = "Dynamic"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

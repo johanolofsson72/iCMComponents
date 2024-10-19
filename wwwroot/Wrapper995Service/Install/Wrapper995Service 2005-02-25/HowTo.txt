@@ -1,0 +1,14 @@
+ 1. Installera Pdf995 Printer Driver v7.1
+ 2. Installera pdf995 Converter v1.1
+ 3. Installera Omniformat v6.8
+ 4. Starta programmet ToolsetKey.exe
+ 5. Öppna dokumentet Software995 Toolset Key.pdf eller Software995 Toolset Key.doc
+    och kopiera Key Value Koden.
+ 6. Skriv in: iConsulting som Name: i Toolset.exe
+ 7. Skriv in: Key Value Koden som Key Value: i Toolset.exe och klicka på Ok.
+ 8. Installera Wrapper995Service.MSI
+ 9. Öppna upp Component Services och leta upp Wrapper995Service servicen.
+10. Konfigurera så att användaren som aktiverar servicen har administratörs rättigheter.
+11. Konfigurera användaren som ska aktivera Servicen så att Pdf995 skrivaren är default 
+    samt att inställningarna stämmer med vad som står i filen pdf995.ini som medföljer här.
+12. Klart för GO.....

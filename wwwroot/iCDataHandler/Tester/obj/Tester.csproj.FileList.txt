@@ -1,0 +1,13 @@
+bin\Debug\Tester.exe
+bin\Debug\Tester.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Tester.Form1.resources
+obj\Debug\Tester.Properties.Resources.resources
+obj\Debug\Tester.csproj.GenerateResource.Cache
+obj\Debug\Tester.exe
+obj\Debug\Tester.pdb
+bin\Debug\iCDataHandler.dll
+bin\Debug\iCXmlDbClient.dll
+bin\Debug\iCXmlDbClient.pdb
+bin\Debug\iCDataHandler.pdb
+bin\Debug\ICSharpCode.SharpZipLib.dll

@@ -1,0 +1,8 @@
+iCDataChannel_API:WebService_Interface
+
+Tables		~EntityClasses
+Table		~EntityClass
+Columns		~Entities
+Column		~Entity
+Item		~Cell
+Taxon		~Taxon

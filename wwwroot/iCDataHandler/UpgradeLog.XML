@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="iCDataHandler">
+</Property><Property Name="Solution File" Value="C:\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler.sln">
+</Property><Property Name="Date" Value="den 24 september 2005">
+</Property><Property Name="Time" Value="23:41:04">
+</Property></Properties><Event ErrorLevel="0" Project="WilsonXmlDbClient" Source="..\WilsonXmlDbClient\SourceCode\WilsonXmlDbClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WilsonXmlDbClient" Source="..\WilsonXmlDbClient\SourceCode\WilsonXmlDbClient.csproj" Description="Converted">
+</Event></UpgradeLog>

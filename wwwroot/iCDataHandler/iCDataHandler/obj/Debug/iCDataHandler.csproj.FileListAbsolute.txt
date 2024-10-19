@@ -1,0 +1,7 @@
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\bin\Debug\iCDataHandler.dll
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\bin\Debug\iCDataHandler.pdb
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\bin\Debug\iCXmlDbClient.dll
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\bin\Debug\iCXmlDbClient.pdb
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\obj\Debug\iCDataHandler.dll
+D:\My Documents\My Dropbox\Development\iConsulting\iCMComponents\wwwroot\iCDataHandler\iCDataHandler\obj\Debug\iCDataHandler.pdb

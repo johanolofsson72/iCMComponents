@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sigfid>
+  <xs:schema id="sigfid" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="sigfid" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="usr_users">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="usr_id" type="xs:string" minOccurs="0" />
+                <xs:element name="ust_id" type="xs:string" minOccurs="0" />
+                <xs:element name="sta_id" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_loginname" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_password" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_signature" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_firstname" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_lastname" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_tag" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_address" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_postalcode" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_city" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_country" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_phone" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_fax" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_mobile" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_url" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_picturepath" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_signaturepath" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_isdirty" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_description" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_createddate" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_createdby" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_updateddate" type="xs:string" minOccurs="0" />
+                <xs:element name="usr_updatedby" type="xs:string" minOccurs="0" default="0" />
+                <xs:element name="usr_hidden" type="xs:string" minOccurs="0" default="0" />
+                <xs:element name="usr_deleted" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <usr_users>
+    <usr_id>1</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>dag@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>apa</usr_firstname>
+    <usr_lastname>Asbjørnsen</usr_lastname>
+    <usr_tag>DA</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_DA.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Rådgiver</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>2</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>helen@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Helén</usr_firstname>
+    <usr_lastname>Ohlsson Berg</usr_lastname>
+    <usr_tag>HOB</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_HOB.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Økonomisjef</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>3</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>peter@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Peter</usr_firstname>
+    <usr_lastname>Bøe</usr_lastname>
+    <usr_tag>PB</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_PB.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Kortfilmkonsulent</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>4</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>kaja@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Kaja</usr_firstname>
+    <usr_lastname>Hench Dyrlie</usr_lastname>
+    <usr_tag>KHD</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_KHD.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Prosjektkoordinator TV-serier (drama) og interaktive medier</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>5</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>sirin@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Sirin</usr_firstname>
+    <usr_lastname>Eide</usr_lastname>
+    <usr_tag>SE</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_SE.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Kortfilmkonsulent</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>6</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>elin@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Elin</usr_firstname>
+    <usr_lastname>Erichsen</usr_lastname>
+    <usr_tag>EE</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_EE.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Produksjonssjef</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>7</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>arve@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Arve</usr_firstname>
+    <usr_lastname>Figenschow</usr_lastname>
+    <usr_tag>ArF</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_ArF.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Prosjektkoordinator langfilm og kortfilm</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>8</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>anne@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Anne</usr_firstname>
+    <usr_lastname>Frilseth</usr_lastname>
+    <usr_tag>AnF</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_AnF.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Prosjektkoordinator langfilm og kortfilm</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>9</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>tom@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Tom</usr_firstname>
+    <usr_lastname>Eirik Frisk</usr_lastname>
+    <usr_tag>TEF</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_TEF.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Regnskapsmedarbeider (vikar)</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>10</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>nikolaj@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Nikolaj</usr_firstname>
+    <usr_lastname>Frobenius</usr_lastname>
+    <usr_tag>NF</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_NF.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Langfilmkonsulent</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>11</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>sidsel@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Sidsel</usr_firstname>
+    <usr_lastname>Hellebø-Hansson</usr_lastname>
+    <usr_tag>SHH</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_SHH.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>MEDIA Desk ansvarlig</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>12</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>kaia.hoeidalen@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Kaia</usr_firstname>
+    <usr_lastname>Høidalen</usr_lastname>
+    <usr_tag>KH</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_KH.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Administrasjonssekretær (vikar)</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>13</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>kaare@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Kåre</usr_firstname>
+    <usr_lastname>Jensen</usr_lastname>
+    <usr_tag>KJ</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_KJ.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Informasjonsmedarbeider MEDIA desk (vikar)</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>14</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>torun@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Torun</usr_firstname>
+    <usr_lastname>Lian</usr_lastname>
+    <usr_tag>TL</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_TL.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Langfilmkonsulent</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>15</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>ragnhild@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Ragnhild</usr_firstname>
+    <usr_lastname>Skaale</usr_lastname>
+    <usr_tag>RS</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_RS.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Controller</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>16</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>stein@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Stein</usr_firstname>
+    <usr_lastname>Slyngstad</usr_lastname>
+    <usr_tag>SS</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_SS.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Direktør</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>17</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>angel@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Angelita</usr_firstname>
+    <usr_lastname>Larsen Tabilo</usr_lastname>
+    <usr_tag>ALT</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_ALT.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Administrasjonssekretær</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>18</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>marit@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Marit</usr_firstname>
+    <usr_lastname>Sætre</usr_lastname>
+    <usr_tag>MS</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_MS.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Informasjonssjef</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>19</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>petter@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Petter</usr_firstname>
+    <usr_lastname>Wallace</usr_lastname>
+    <usr_tag>PW</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_PW.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Prosjektkoordinator TV</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>20</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>nils@filmfondet.no</usr_loginname>
+    <usr_password>VOo+GWxc5n6wkGP//Y5G2w==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Nils</usr_firstname>
+    <usr_lastname>Klevjer Aas</usr_lastname>
+    <usr_tag>NKA</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_NKA.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Seniorrådgiver</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+  <usr_users>
+    <usr_id>21</usr_id>
+    <ust_id>1</ust_id>
+    <sta_id>1</sta_id>
+    <usr_loginname>jool@iconsulting.se</usr_loginname>
+    <usr_password>HIzVlYE+bVQWdmMRyC+OfQ==</usr_password>
+    <usr_signature xml:space="preserve" />
+    <usr_firstname>Johan</usr_firstname>
+    <usr_lastname>Olofsson</usr_lastname>
+    <usr_tag>JO</usr_tag>
+    <usr_address xml:space="preserve" />
+    <usr_postalcode xml:space="preserve" />
+    <usr_city xml:space="preserve" />
+    <usr_country xml:space="preserve" />
+    <usr_phone xml:space="preserve" />
+    <usr_fax xml:space="preserve" />
+    <usr_mobile xml:space="preserve" />
+    <usr_url xml:space="preserve" />
+    <usr_picturepath xml:space="preserve" />
+    <usr_signaturepath>Images/Signatures/signature_JO.tif</usr_signaturepath>
+    <usr_isdirty>0</usr_isdirty>
+    <usr_description>Developer</usr_description>
+    <usr_createddate>2005-07-01T00:00:00.0000000+02:00</usr_createddate>
+    <usr_createdby>autoscript</usr_createdby>
+    <usr_updateddate>2005-07-01T00:00:00.0000000+02:00</usr_updateddate>
+    <usr_updatedby>autoscript</usr_updatedby>
+    <usr_hidden>0</usr_hidden>
+    <usr_deleted>0</usr_deleted>
+  </usr_users>
+</sigfid>

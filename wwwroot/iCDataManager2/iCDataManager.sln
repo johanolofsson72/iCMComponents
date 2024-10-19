@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCDataManager", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCDataManager2/iCDataManager.vbproj", "{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCDataManager2Tester", "..\iCDataManager2Tester\iCDataManager2Tester.vbproj", "{B012FC01-EB14-40C2-8621-BEB97917BDFB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCMServer", "..\iCMServer\iCMServer.csproj", "{AC3C0953-5F73-42A6-8A26-5E06558804A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Debug.ActiveCfg = Debug|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Debug.Build.0 = Debug|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Release.ActiveCfg = Release|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Release.Build.0 = Release|.NET
+		{B012FC01-EB14-40C2-8621-BEB97917BDFB}.Debug.ActiveCfg = Debug|.NET
+		{B012FC01-EB14-40C2-8621-BEB97917BDFB}.Debug.Build.0 = Debug|.NET
+		{B012FC01-EB14-40C2-8621-BEB97917BDFB}.Release.ActiveCfg = Release|.NET
+		{B012FC01-EB14-40C2-8621-BEB97917BDFB}.Release.Build.0 = Release|.NET
+		{AC3C0953-5F73-42A6-8A26-5E06558804A3}.Debug.ActiveCfg = Debug|.NET
+		{AC3C0953-5F73-42A6-8A26-5E06558804A3}.Debug.Build.0 = Debug|.NET
+		{AC3C0953-5F73-42A6-8A26-5E06558804A3}.Release.ActiveCfg = Release|.NET
+		{AC3C0953-5F73-42A6-8A26-5E06558804A3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

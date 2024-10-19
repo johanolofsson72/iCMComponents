@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCDataGrid", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCDataGrid/iCDataGrid.vbproj", "{A0605EFA-A5BF-4E94-B116-6EA1551C4BBB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A0605EFA-A5BF-4E94-B116-6EA1551C4BBB}.Debug.ActiveCfg = Debug|.NET
+		{A0605EFA-A5BF-4E94-B116-6EA1551C4BBB}.Debug.Build.0 = Debug|.NET
+		{A0605EFA-A5BF-4E94-B116-6EA1551C4BBB}.Release.ActiveCfg = Release|.NET
+		{A0605EFA-A5BF-4E94-B116-6EA1551C4BBB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

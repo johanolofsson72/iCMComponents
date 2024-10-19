@@ -1,0 +1,7 @@
+bin\Wrapper995Service.dll
+bin\Wrapper995Service.pdb
+bin\Wrapper995Service.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Wrapper995Service.dll
+obj\Debug\Wrapper995Service.xml
+obj\Debug\Wrapper995Service.pdb

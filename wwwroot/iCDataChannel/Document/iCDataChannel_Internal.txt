@@ -1,0 +1,19 @@
+iCDataChannel_Internal:Class_Interface
+
+Description...
+
+Structure	~Modeler
+Taxonomy	~Taxonomy
+Data		~Data
+
+
+Root files...
+
+clsAuthentication.vb
+clsStructure.vb
+clsTaxonomy.vb
+clsData.vb
+
+API.asmx
+
+Terminal.aspx	

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCUpload", "iCUpload.vbproj", "{0676845E-9B47-404A-ADDD-924005E215EC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tester", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCUpload/Tester/Tester.vbproj", "{3387A7EA-194E-4893-A393-F93D953E031F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0676845E-9B47-404A-ADDD-924005E215EC}.Debug.ActiveCfg = Debug|.NET
+		{0676845E-9B47-404A-ADDD-924005E215EC}.Debug.Build.0 = Debug|.NET
+		{0676845E-9B47-404A-ADDD-924005E215EC}.Release.ActiveCfg = Release|.NET
+		{0676845E-9B47-404A-ADDD-924005E215EC}.Release.Build.0 = Release|.NET
+		{3387A7EA-194E-4893-A393-F93D953E031F}.Debug.ActiveCfg = Debug|.NET
+		{3387A7EA-194E-4893-A393-F93D953E031F}.Debug.Build.0 = Debug|.NET
+		{3387A7EA-194E-4893-A393-F93D953E031F}.Release.ActiveCfg = Release|.NET
+		{3387A7EA-194E-4893-A393-F93D953E031F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

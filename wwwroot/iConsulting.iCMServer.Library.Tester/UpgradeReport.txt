@@ -1,0 +1,18 @@
+03/10/2005:22:28:13   Migration Started on project file iConsulting.iCMServer.Library.Tester.vbproj.
+03/10/2005:22:28:13   Renamed file Web References\iCDataManager\Reference.map to the Reference.discomap directory.
+03/10/2005:22:28:13   Removed file bin\iConsulting.iCMServer.Library.Tester.dll.
+03/10/2005:22:28:13   Removed file bin\iConsulting.iCMServer.Library.Tester.pdb.
+03/10/2005:22:28:14   Deleting attribute Codebehind.
+03/10/2005:22:28:14   Succeeded parsing the file global.asax.
+03/10/2005:22:28:14   Deleting attribute Inherits.
+03/10/2005:22:28:14   Deleting attribute Codebehind.
+03/10/2005:22:28:15   Removed comment lines before designplaceholder declaration.
+03/10/2005:22:28:15   Succeeded parsing the file webform1.aspx.
+03/10/2005:22:28:15   Failed parsing the file global.asax.vb.
+03/10/2005:22:28:16   Added folder code\ to the web.
+03/10/2005:22:28:16   Moving file global.asax.vb to the code\ directory.
+03/10/2005:22:28:16   Succeeded parsing the file assemblyinfo.vb.
+03/10/2005:22:28:17   Moving file assemblyinfo.vb to the code\ directory.
+03/10/2005:22:28:17   Renamed folder Web References\ to WebReferences.
+03/10/2005:22:28:17   Unable to migrate user settings in C:\Documents and Settings\Jool\VSWebCache\OZZY\Development\iConsulting\iCMComponents\wwwroot\iConsulting.iCMServer.Library.Tester\iConsulting.iCMServer.Library.Tester.vbproj.user.
+03/10/2005:22:28:17   Removed file iConsulting.iCMServer.Library.Tester.vbproj.

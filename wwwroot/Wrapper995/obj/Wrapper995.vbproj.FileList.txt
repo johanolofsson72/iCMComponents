@@ -1,0 +1,13 @@
+bin\Wrapper995.exe.config
+obj\Debug\Wrapper995.exe
+obj\Debug\Wrapper995.pdb
+bin\Wrapper995.exe
+bin\Wrapper995.pdb
+bin\Wrapper995.xml
+bin\Wrapper995Service.dll
+bin\Wrapper995Service.pdb
+bin\Wrapper995Service.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Wrapper995.Form1.resources
+obj\Debug\Wrapper995.vbproj.GenerateResource.Cache
+obj\Debug\Wrapper995.xml

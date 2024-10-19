@@ -1,0 +1,5 @@
+bin\Debug\WilsonXmlDbClient.dll
+bin\Debug\WilsonXmlDbClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WilsonXmlDbClient.dll
+obj\Debug\WilsonXmlDbClient.pdb

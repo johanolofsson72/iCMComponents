@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iConsulting.Library", "iConsulting.Library.vbproj", "{5B1308CF-9B1F-46C9-BE56-E13F4E6B8A54}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCLibraryTester", "..\iCLibraryTester\iCLibraryTester.vbproj", "{77A72BBF-1E6E-4417-B3A5-A735ED5A9469}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCLibraryTesterWeb", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCLibrary/iCLibraryTesterWeb/iCLibraryTesterWeb.vbproj", "{A6E497D6-7C4A-4EDB-9A9C-EB09F8014748}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5B1308CF-9B1F-46C9-BE56-E13F4E6B8A54}.Debug.ActiveCfg = Debug|.NET
+		{5B1308CF-9B1F-46C9-BE56-E13F4E6B8A54}.Debug.Build.0 = Debug|.NET
+		{5B1308CF-9B1F-46C9-BE56-E13F4E6B8A54}.Release.ActiveCfg = Release|.NET
+		{5B1308CF-9B1F-46C9-BE56-E13F4E6B8A54}.Release.Build.0 = Release|.NET
+		{77A72BBF-1E6E-4417-B3A5-A735ED5A9469}.Debug.ActiveCfg = Debug|.NET
+		{77A72BBF-1E6E-4417-B3A5-A735ED5A9469}.Debug.Build.0 = Debug|.NET
+		{77A72BBF-1E6E-4417-B3A5-A735ED5A9469}.Release.ActiveCfg = Release|.NET
+		{77A72BBF-1E6E-4417-B3A5-A735ED5A9469}.Release.Build.0 = Release|.NET
+		{A6E497D6-7C4A-4EDB-9A9C-EB09F8014748}.Debug.ActiveCfg = Debug|.NET
+		{A6E497D6-7C4A-4EDB-9A9C-EB09F8014748}.Debug.Build.0 = Debug|.NET
+		{A6E497D6-7C4A-4EDB-9A9C-EB09F8014748}.Release.ActiveCfg = Release|.NET
+		{A6E497D6-7C4A-4EDB-9A9C-EB09F8014748}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

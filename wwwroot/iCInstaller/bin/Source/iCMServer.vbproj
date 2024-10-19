@@ -1,0 +1,439 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{27976BC8-37AB-4CE1-955B-2D3B87DD5015}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer"
+                StartupObject = "iConsulting.iCMServer.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.vb"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "iCM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "iCM.aspx.vb"
+                    DependentUpon = "iCM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "iCM.aspx.resx"
+                    DependentUpon = "iCM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "iCMServer.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Desktop\Controls\DesktopModuleTitle.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Desktop\Controls\DesktopModuleTitle.ascx.vb"
+                    DependentUpon = "DesktopModuleTitle.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Desktop\Controls\DesktopModuleTitle.ascx.resx"
+                    DependentUpon = "DesktopModuleTitle.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Desktop\Modules\" />
+                <Folder RelPath = "Desktop\Skins\" />
+                <Folder RelPath = "Mobile\Modules\" />
+                <File
+                    RelPath = "Server\Components\Configuration\clsBlobDataList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsDefinedDataList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsGridColumnsList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsLanguageSettings.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsLanguageText.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsMenuDetails.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsModuleItem.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsModuleSettings.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsMultiQueryList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsPageSettings.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsPageStripDetails.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsSiteCss.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsSiteLog.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsSiteSettings.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Configuration\clsThumbnail.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\clsCrypto.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\clsImage.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\clsUser.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageStream.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageStream.aspx.vb"
+                    DependentUpon = "ImageStream.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageStream.aspx.resx"
+                    DependentUpon = "ImageStream.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageThumnailStream.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageThumnailStream.aspx.vb"
+                    DependentUpon = "ImageThumnailStream.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Global\ImageThumnailStream.aspx.resx"
+                    DependentUpon = "ImageThumnailStream.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Server\Components\Global\modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\ModuleControls\clsCachedSiteModuleControl.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\ModuleControls\clsSiteModuleControl.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Components\Security\clsSiteSecurity.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Css\iCMServer.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Css\iCMServerStyle.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Css\iCMServerStyle.ascx.vb"
+                    DependentUpon = "iCMServerStyle.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Css\iCMServerStyle.ascx.resx"
+                    DependentUpon = "iCMServerStyle.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Server\Design\" />
+                <File
+                    RelPath = "Server\Images\downarrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Images\uparrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\cm_addins.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\coolmenus4.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\Generic.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\SmartNav.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\SmartNavIE5.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Js\WebUIValidation.js"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Server\Modules\" />
+                <File
+                    RelPath = "Server\Security\AccessDenied.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server\Security\AccessDenied.aspx.vb"
+                    DependentUpon = "AccessDenied.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Server\Security\AccessDenied.aspx.resx"
+                    DependentUpon = "AccessDenied.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Setup\Jit\Jit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Setup\Jit\Jit.aspx.vb"
+                    DependentUpon = "Jit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Setup\Jit\Jit.aspx.resx"
+                    DependentUpon = "Jit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\iCDataManager\iCDataObject.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\iCDataManager\iCDataObject.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\iCDataManager\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\iCDataManager\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\iCDataManager\"
+                    WebReferenceUrl = "http://localhost/iCDataManager3/iCDataObject.asmx"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

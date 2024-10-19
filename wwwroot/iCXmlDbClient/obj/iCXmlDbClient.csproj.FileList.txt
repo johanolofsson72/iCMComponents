@@ -1,0 +1,5 @@
+bin\Debug\iCXmlDbClient.dll
+bin\Debug\iCXmlDbClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\iCXmlDbClient.dll
+obj\Debug\iCXmlDbClient.pdb

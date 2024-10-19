@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCDataManagerService", "http://localhost/Development/iConsulting/iCMComponents/wwwroot/iCDataManagerService/iCDataManagerService.vbproj", "{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Debug.ActiveCfg = Debug|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Debug.Build.0 = Debug|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Release.ActiveCfg = Release|.NET
+		{A5505103-53FF-4B08-9BAF-982BCC8D4AC9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

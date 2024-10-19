@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<keys>
+  <xs:schema id="keys" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="keys" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="key_keys">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="key_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:string" minOccurs="0" />
+                <xs:element name="key_name" type="xs:string" minOccurs="0" />
+                <xs:element name="key_mail" type="xs:string" minOccurs="0" />
+                <xs:element name="key_isvalidated" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <key_keys>
+    <key_id>1</key_id>
+    <key_name>Johan</key_name>
+    <key_mail>jool@noisycricket.se</key_mail>
+    <key_isvalidated>0</key_isvalidated>
+  </key_keys>
+  <key_keys>
+    <key_id>2</key_id>
+    <key_name>Johan Olofsson</key_name>
+    <key_mail>jool@rflx.se</key_mail>
+    <key_isvalidated>0</key_isvalidated>
+  </key_keys>
+</keys>

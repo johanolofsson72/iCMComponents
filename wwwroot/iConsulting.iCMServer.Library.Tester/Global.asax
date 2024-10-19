@@ -1,0 +1,1 @@
+<%@ Application Inherits="iConsulting.iCMServer.Library.Tester.Global" %>
